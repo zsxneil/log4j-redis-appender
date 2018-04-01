@@ -15,3 +15,11 @@ you can use it in a log4j.xml like this:
 		<param name="location" value="true"/>
 		<param name="appname" value="log4j-redis-appender"/>
     </appender>
+
+you can get it from maven central repository already. the dependency is here:
+
+	<dependency>
+	    <groupId>com.github.zsxneil</groupId>
+	    <artifactId>log4j-redis-appender</artifactId>
+	    <version>1.0.0</version>
+	</dependency>
