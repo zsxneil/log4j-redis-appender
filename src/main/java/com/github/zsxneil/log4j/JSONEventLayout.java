@@ -125,8 +125,8 @@ public class JSONEventLayout extends Layout {
         appendKeyValue(buf, "level", event.getLevel().toString(), null);
         buf.append(COMMA);
         appendKeyValue(buf, "thread", event.getThreadName(), null);
-        buf.append(COMMA);
-        appendKeyValue(buf, "level", event.getLevel().toString(), null);
+        /*buf.append(COMMA);
+        appendKeyValue(buf, "level", event.getLevel().toString(), null);*/
         ThrowableInformation ti = event.getThrowableInformation();
         if (ti != null) {
             String[] s = ti.getThrowableStrRep();
